@@ -2,7 +2,7 @@ function Gallery(gallery) {
   if(!gallery) {
     throw new Error('No gallery found')
   }
-  //console.log(gallery)
+  //console.log(gallery) sdfdsf
   //select DOM elements  
   const images = Array.from(gallery.querySelectorAll('img'))
   const modal = document.querySelector('.modal')
